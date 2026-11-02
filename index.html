@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#eedeea" />
+  <title>A &amp; J</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Itim&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <main class="login-screen" data-login-screen aria-labelledby="login-title">
+    <span class="login-monogram login-monogram-a" aria-hidden="true">A</span>
+    <section class="login-panel">
+      <h1 id="login-title">Seja bem vinda ao<br />meu coração</h1>
+      <button class="login-submit" type="button" data-enter-app>Entrar</button>
+    </section>
+    <span class="login-monogram login-monogram-j" aria-hidden="true">J</span>
+  </main>
+
+  <div data-app-content hidden>
+    <section class="figma-app" data-public-app>
+      <header class="site-header">
+        <a class="monogram" href="#public-inicio" aria-label="A e J, início">A</a>
+        <nav class="main-nav public-nav" aria-label="Navegação principal">
+          <button class="nav-button is-active" type="button" data-public-tab="home" aria-current="page">Inicio</button>
+          <button class="nav-button" type="button" data-public-tab="feelings">Feeling</button>
+          <button class="nav-button" type="button" data-public-tab="for-you">For You</button>
+        </nav>
+        <button class="legacy-slide-button" type="button" data-open-legacy aria-label="Abrir o outro início" title="Outro início"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m9 18 6-6-6-6" />
+          </svg></button>
+        <a class="monogram" href="#public-inicio" aria-label="A e J, início">J</a>
+      </header>
+
+      <main class="layout public-layout" id="public-inicio">
+        <aside class="sidebar public-sidebar" aria-label="Mensagens e calendário">
+          <section class="public-quotes" aria-label="Mensagens com tulipas">
+            <article class="public-quote">
+              <img src="./imagens/2e2e340b49138682c98a02c84fcaa253.jpg" alt="Girassóis" />
+              <p>Se eu pudesse escolher onde florescer, escolheria ao seu lado, como um girassol sempre encontra o sol quando procura por ele no céu pela manhã.</p>
+            </article>
+            <article class="public-quote">
+              <img src="./imagens/%F0%9F%8C%B7.jpg" alt="Tulipas cor-de-rosa" />
+              <p>Assim como uma tulipa rosa floresce com delicadeza, meu amor por você cresce todos os dias, com carinho, ternura e a certeza de que escolheria você em todas as vidas.</p>
+            </article>
+            <article class="public-quote">
+              <img src="./imagens/Tulipa%20Amarela.jpg" alt="Tulipas amarelas" />
+              <p>Assim como a tulipa amarela traz luz por onde floresce, você trouxe alegria e luz para a minha vida, e eu só quero continuar florescendo ao seu lado.</p>
+            </article>
+            <article class="public-quote">
+              <img src="./imagens/download%20(10).jpg" alt="Tulipas brancas" />
+              <p>Como uma tulipa branca, meu amor por você é puro e sincero; carrega a paz de um coração que encontrou em você um lugar para ficar.</p>
+            </article>
+          </section>
+
+          <section class="calendar" aria-label="Calendário do amor">
+            <div class="calendar-heading">
+              <h2>Calendário do amor</h2>
+              <div class="month-navigation">
+                <button class="month-shift" type="button" data-month-shift="-1" aria-label="Mês anterior"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m15 18-6-6 6-6" />
+                  </svg></button>
+                <p class="calendar-month-label"></p>
+                <button class="month-shift" type="button" data-month-shift="1" aria-label="Próximo mês"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m9 18 6-6-6-6" />
+                  </svg></button>
+              </div>
+            </div>
+            <div class="calendar-weekdays" aria-hidden="true">
+              <span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span><span>Dom</span>
+            </div>
+            <div class="calendar-grid" role="group" aria-label="Dias do calendário"></div>
+            <p class="calendar-message" aria-live="polite">Obrigado por ter me amado esse dia todo!</p>
+          </section>
+        </aside>
+
+        <section class="public-gallery" id="public-moments" data-public-home aria-label="Momentos juntos">
+          <div class="public-photo-item" tabindex="0">
+            <img src="./imagens/download%20(9).jpg" alt="Nós juntas vendo um filme" />
+            <p>Quero compartilhar momentos em que eu olhe pela janela junto com você, observando o movimento da rua e sentindo cada parte do meu corpo arrepiar de saber que é exatamente ali onde eu queria estar.</p>
+          </div>
+          <div class="public-photo-item" tabindex="0">
+            <img src="./imagens/download%20(8).jpg" alt="Uma foto nossa diante do espelho" />
+            <p>Quero tirar fotos de todos os momentos bons da nossa vida: sorrindo, nos beijando, nos abraçando, dormindo juntas, passeando e viajando. Guardar cada um desses instantes em um lugar onde o tempo jamais consiga apagar.</p>
+          </div>
+          <div class="public-photo-item" tabindex="0">
+            <img src="./imagens/download%20(5).jpg" alt="Nós abraçadas olhando as luzes da cidade" />
+            <p>Quero poder te abraçar a qualquer hora do dia e sentir seu corpo quentinho colado no meu. Fazer nossos corações baterem sincronizados num abraço e te amar com a delicadeza e a intensidade do meu corpo junto ao seu.</p>
+          </div>
+          <div class="public-photo-item" tabindex="0">
+            <img src="./imagens/download%20(11).jpg" alt="Nós juntas em uma biblioteca" />
+            <p>Quero poder te beijar a qualquer hora do dia, sem motivo, seja no meio de uma risada, de um abraço ou de um gesto de silêncio. Quero colecionar o gosto dos seus lábios em todos os cantos e guardar cada beijo como o melhor detalhe da nossa vida.</p>
+          </div>
+          <div class="public-photo-item" tabindex="0">
+            <img src="./imagens/download%20(7).jpg" alt="Nossas mãos dadas" />
+            <p>Quero andar sempre de mão dada contigo, seja fora de casa ou no aconchego de casa, onde podemos nos ligar no que há de mais simples e seguro, independentemente de onde a vida nos leve.</p>
+          </div>
+          <div class="public-photo-item" tabindex="0">
+            <img src="./imagens/foto%20na%20praia.jpg" alt="Nós duas na praia ao pôr do sol" />
+            <p>Quero colecionar o mundo ao teu lado e transformar qualquer saída numa aventura. Seja num passeio sem rumo ou na rotina do dia a dia, o que importa é dividir o mesmo espaço e criar histórias que só a gente entende.</p>
+          </div>
+        </section>
+
+        <section class="public-feelings-page" data-public-feelings aria-labelledby="public-feelings-title" hidden>
+          <div class="music-heading">
+            <h1 id="public-feelings-title">Essas são todas as músicas que eu escuto e lembro de você</h1>
+            <button class="music-next" type="button" data-music-next aria-label="Próxima página das músicas">
+              <svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg>
+            </button>
+          </div>
+          <div class="music-slide is-active" data-music-slide>
+            <div class="music-grid">
+              <article class="music-entry">
+                <div class="music-track">
+                  <img src="./imagens/I%20Wanna%20Be%20Yours.jpg" alt="Capa de I Wanna Be Yours" />
+                  <div>
+                    <h2>I Wanna Be Yours</h2>
+                    <p>Arctic Monkeys</p>
+                  </div>
+                </div>
+                <p>Essa música é uma das primeiras que me lembram você. Principalmente essa parte: “If you like your coffee hot, let me be your coffee pot.” Porque eu sei que você ama café. Te dedico essa música toda vez que eu escuto ela; ela é tão especial quanto você é pra mim. Quero que sempre que você escute essa música, se lembre do quanto eu queria ser sua, do quanto eu queria e tentei fazer dar tudo certo. Se lembra de mim com carinho, meu amor. Eu te amo.</p>
+              </article>
+
+              <article class="music-entry">
+                <div class="music-track">
+                  <img src="./imagens/M_.jpg" alt="Capa de M." />
+                  <div>
+                    <h2>M.</h2>
+                    <p>The Neighbourhood</p>
+                  </div>
+                </div>
+                <p>Essa música se tornou muito especial pra mim. Toda vez que eu escuto, fico chorando como se você tivesse morrido e eu estivesse lembrando como é difícil ficar longe da pessoa que eu mais amei na minha vida. Essa parte aqui: “al beni yanına sevgilim, seni bana geri ver sevgilim”, que significa: “Me leve com você, querida. Devolva-se a mim, querida.” Eu queria tanto estar com você. Eu sei de todos os nossos problemas, mas eu ainda sim eu queria lutar por você, queria tanto sentir o seu amor me transbordando por dentro. Como eu queria você. Eu não queria ir embora. Como eu queria ter a oportunidade da gente se amar direito, meu ursinho.</p>
+              </article>
+
+              <article class="music-entry">
+                <div class="music-track">
+                  <img src="./imagens/cars-outside-cover.png" alt="Capa de Cars Outside" />
+                  <div>
+                    <h2>Cars Outside</h2>
+                    <p>James Arthur</p>
+                  </div>
+                </div>
+                <p>Essa música é uma das mais fofas que eu te dedico toda vez que escuto. Essa parte aqui é como me define agora: “I'm tired of loving from afar, and never being where you are.” Eu tô cansada de te amar de longe, sem poder estar onde você está. Eu queria te abraçar, te beijar, te olhar nos olhos e me declarar de cinco em cinco minutos, e você perceber que eu não sei te amar de forma saudável sem querer largar tudo que eu quero, sem parar de fazer tudo que eu gosto se isso significar que eu vou estar com você, vou ouvir sua voz e sorrir todas as vezes que você sorrir também.</p>
+              </article>
+
+              <article class="music-entry">
+                <div class="music-track">
+                  <img src="./imagens/katy%20parry.jpg" alt="Capa de Prism, de Katy Perry" />
+                  <div>
+                    <h2>Legendary Lovers</h2>
+                    <p>Katy Perry</p>
+                  </div>
+                </div>
+                <p>Essa tem um significado especial, porque sempre que senti saudade me lembrei de você. Você é o meu amor lendário, aquele que não se esquece fácil, aquele que não se perde, não diminui, porém só aumenta, só cresce... “Legendary lovers, we could be legendary.” Eu te amaria em todas as minhas vidas, independente de todos os problemas, meus olhos brilhariam olhando pra qualquer vida que eu te conhecesse.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="music-slide" data-music-slide hidden>
+            <div class="music-grid">
+              <article class="music-entry">
+                <div class="music-track">
+                  <img src="./imagens/anavit%C3%B3ria%20%C3%A1lbum%20COR.jpg" alt="Capa do álbum de ANAVITÓRIA" />
+                  <div>
+                    <h2>Lisboa</h2>
+                    <p>ANAVITORIA</p>
+                  </div>
+                </div>
+                <p>Essa música é uma das mais românticas que eu já dediquei pra você, eu amo muito essa música. Antes que você diga que já sabe qual é a parte que eu mais gosto, eu vou te desmentir agora: “Te quero tanto, é quase dor. É com você que eu quero estar.” Essa é a minha parte favorita. Eu te amo tanto que chega a doer e, mesmo que a gente não fique junto, quero que você se lembre do tanto que eu amo você e do quanto você significou pra mim.</p>
+              </article>
+
+              <article class="music-entry">
+                <div class="music-track">
+                  <img src="./imagens/Lied%20To.jpg" alt="Capa de Room Under the Stairs, de ZAYN" />
+                  <div>
+                    <h2>Lied To</h2>
+                    <p>ZAYN</p>
+                  </div>
+                </div>
+                <p>Essa música não tem nem muito o que explicar, ela é fofa kkkkkkk, mas eu dedico ela pra você também. Com muito carinho, ouço ela sempre pensando em você. “This sentiment don't exist without you, You make me feel alive.” Mesmo com todos os nossos problemas, naqueles pequenos momentos em que estamos bem e felizes, eu me sinto viva com você e esse sentimento sempre existe quando eu estou do seu lado. E mesmo se existir um momento em que eu já não tenha mais você, quero que se lembre que eu vou guardar esse sentimento com todo carinho na minha mente.</p>
+              </article>
+
+              <article class="music-entry">
+                <div class="music-track">
+                  <img src="./imagens/Company.jpg" alt="Capa de Company, de Justin Bieber" />
+                  <div>
+                    <h2>Company</h2>
+                    <p>Justin Bieber</p>
+                  </div>
+                </div>
+                <p>Essa música é para os ficantes, né? Kkkkk. Mas ela me lembra quando a gente se conheceu, então é mais um apego ao momento do que à música em si, mas gosto de como ela me faz lembrar dessa época. Eu já estava super apaixonada no terceiro dia: o seu jeitinho todo maluquinho, sua risada escandalosa, sua gritaria sem fim. Por algum motivo isso me fisgou (sou doida também) e, quando eu não tinha você, meu dia era um pouco sem graça, sentia falta. Eu queria a sua companhia e ser a sua companhia também. Essa música me traz a lembrança de querer estar sempre perto de você.</p>
+              </article>
+
+              <article class="music-entry">
+                <div class="music-track">
+                  <img src="./imagens/Paramore_%20The%20Only%20Exception%20%5BOFFICIAL%20VIDEO%5D.jpg" alt="Capa de Brand New Eyes, do Paramore" />
+                  <div>
+                    <h2>The Only Exception</h2>
+                    <p>Paramore</p>
+                  </div>
+                </div>
+                <p>Essa aí é uma das que mais me pega. Foi na época que você fez aquela surpresa no Mine pra mim. Nessa época eu estava toda perdida e preocupada demais que você estivesse cansada e querendo terminar por conta de todos os seus problemas, então você veio e fez a surpresa e eu chorei do começo ao fim kkkkk. Eu fiquei pensando: “meu Deus, que alívio”. Foi um dia que eu guardo com muito carinho e, na playlist que você fez pra eu escutar enquanto via a surpresa, tinha essa música nela. Eu tenho até hoje ela adicionada na minha playlist, porque ela tem um significado muito bonitinho pra mim e agora você sabe. Enfim, ela só é especial porque foi você que me mostrou.</p>
+              </article>
+            </div>
+          </div>
+          <nav class="music-pagination" aria-label="Páginas das músicas">
+            <button class="music-page-dot is-active" type="button" data-music-page="0" aria-label="Mostrar página 1 de 2" aria-current="page"></button>
+            <button class="music-page-dot" type="button" data-music-page="1" aria-label="Mostrar página 2 de 2"></button>
+          </nav>
+        </section>
+      </main>
+
+    </section>
+
+    <div data-legacy-content hidden>
+      <header class="site-header" id="inicio">
+        <a class="monogram" href="#inicio" aria-label="A e J, início">A</a>
+        <nav class="main-nav" aria-label="Navegação principal">
+          <button class="legacy-return-button" type="button" data-return-public aria-label="Voltar ao primeiro início" title="Voltar ao primeiro início"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m15 18-6-6 6-6" />
+            </svg></button>
+          <button class="nav-button is-active" type="button" data-view="home" aria-current="page">Inicio</button>
+          <button class="nav-button" type="button" data-view="letters">Cartinhas</button>
+          <button class="nav-button" type="button" data-view="lyrics">Lyrics</button>
+          <div class="feelings-control">
+            <button class="feelings-heart" type="button" data-feelings-heart aria-label="Como você está se sentindo?" title="Responder pelo calendário">
+              <span class="heart-glyph" aria-hidden="true">&hearts;</span>
+              <span class="feelings-check" data-feelings-check aria-hidden="true" hidden>✓</span>
+            </button>
+          </div>
+        </nav>
+        <a class="monogram" href="#inicio" aria-label="A e J, início">J</a>
+      </header>
+
+      <main class="layout">
+        <aside class="sidebar" aria-label="Cartinhas e calendário">
+          <section class="notes-panel side-panel is-visible" data-side="home" aria-label="Cartinhas">
+            <article class="note-card">
+              <img class="note-image" src="./imagens/Jennie%20.jpg" alt="Jennie" />
+              <p>Se o seu amor por mim for um pouquinho só do amor que você sente pela Jennie, eu vou ser a pessoa mais feliz desse mundo inteiro.</p>
+            </article>
+            <article class="note-card">
+              <img class="note-image" src="./imagens/soojin%201.jpg" alt="Soojin" />
+              <p>Porque eu te amo na mesma imensidão que ja amei a Soojin, com a mesma intensidade, com a mesma devoção, com a mesma sinceridade.</p>
+            </article>
+            <article class="note-card">
+              <img class="note-image" src="./imagens/shuhua%20e%20soojin.jpg" alt="Shuhua e Soojin" />
+              <p>Te olhei como a shuhua olhava pra soojin, como se ela fosse a unica coisa mais linda no mundo. É assim que eu olho pra você e é assim que eu sinto você.</p>
+            </article>
+            <article class="note-card">
+              <img class="note-image note-image-wide" src="./imagens/Jennie%20e%20lisa.jpg" alt="Jennie e Lisa" />
+              <p>Da mesma forma que você ama elas, eu amo você, eu sinto você, eu vejo você... Você é a minha Jenniezinha e essa foi a coisa mais brega que eu ja disse kkkkk</p>
+            </article>
+          </section>
+
+          <section class="calendar" aria-label="Calendário do amor">
+            <div class="calendar-heading">
+              <h2>Calendário do amor</h2>
+              <div class="month-navigation">
+                <button class="month-shift" type="button" data-month-shift="-1" aria-label="Mês anterior"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m15 18-6-6 6-6" />
+                  </svg></button>
+                <p class="calendar-month-label"></p>
+                <button class="month-shift" type="button" data-month-shift="1" aria-label="Próximo mês"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="m9 18 6-6-6-6" />
+                  </svg></button>
+              </div>
+            </div>
+            <div class="calendar-weekdays" aria-hidden="true">
+              <span>Seg</span><span>Ter</span><span>Qua</span><span>Qui</span><span>Sex</span><span>Sáb</span><span>Dom</span>
+            </div>
+            <div class="calendar-grid" role="group" aria-label="Dias do calendário"></div>
+            <p class="calendar-message" aria-live="polite">Obrigado por ter me amado esse dia todo!</p>
+          </section>
+          <section class="letter-heart-panel side-panel" data-side="about" aria-label="Coração interativo">
+            <div class="letter-heart-container" data-letter-heart-container>
+              <p class="heart-hint" data-letter-heart-hint role="status">Clique no coração</p>
+              <button type="button" class="beating-heart-btn letter-heart-button" data-letter-heart aria-label="Soltar emojis de carinho">
+                <svg viewBox="0 0 512 512" class="heart-svg" aria-hidden="true">
+                  <path fill="#8b140f" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+                </svg>
+              </button>
+              <div class="letter-heart-emojis" data-letter-heart-emojis aria-hidden="true"></div>
+            </div>
+          </section>
+          <section class="lyrics-favorites side-panel" data-side="lyrics" aria-labelledby="lyrics-favorites-title">
+            <div class="lyrics-favorites-heading">
+              <h2 id="lyrics-favorites-title">Favoritas agora - novembro</h2>
+              <span>Clique para abrir</span>
+            </div>
+            <div class="lyrics-favorite-list">
+              <a class="lyrics-favorite-song" href="https://open.spotify.com/search/M.%20The%20Neighbourhood" target="_blank" rel="noopener noreferrer" aria-label="Ouvir M., de The Neighbourhood, no Spotify">
+                <img src="./imagens/M_.jpg" alt="" />
+                <span><strong>M.</strong><small>The Neighbourhood</small></span>
+              </a>
+              <a class="lyrics-favorite-song" href="https://open.spotify.com/search/Legendary%20Lovers%20Katy%20Perry" target="_blank" rel="noopener noreferrer" aria-label="Ouvir Legendary Lovers, de Katy Perry, no Spotify">
+                <img src="./imagens/katy%20parry.jpg" alt="" />
+                <span><strong>Legendary Lovers</strong><small>Katy Perry</small></span>
+              </a>
+              <a class="lyrics-favorite-song" href="https://open.spotify.com/search/Lisboa%20ANAVITORIA" target="_blank" rel="noopener noreferrer" aria-label="Ouvir Lisboa, de ANAVITORIA, no Spotify">
+                <img src="./imagens/anavit%C3%B3ria%20%C3%A1lbum%20COR.jpg" alt="" />
+                <span><strong>Lisboa</strong><small>ANAVITORIA</small></span>
+              </a>
+            </div>
+          </section>
+          <section class="for-you-day-panel side-panel" data-side="for-you" aria-labelledby="for-you-day-title">
+            <h2 id="for-you-day-title">I will miss you</h2>
+            <p class="for-you-day-copy">Um eco que fica no fundo do peito,<br />Um laço invisível, sem tempo nem fim.<br />A ausência que habita, de forma tão perfeita,<br />Tudo o que foste e que vive em mim.<br />Há dias em que o vento traz o teu riso ao longe,<br />E o mundo silencia só para eu escutar.<br />É uma saudade que o tempo não consome,<br />Que não pede cura, nem sabe calar.<br />Fica a memória guardada na pele,<br />Nas coisas simples que o tempo levou.<br />E mesmo sabendo que a vida prossegue,<br />Fica para sempre o amor que ficou.</p>
+          </section>
+        </aside>
+
+        <section class="stage home-stage is-visible" data-stage="home" aria-label="Início">
+          <div class="gallery">
+            <figure class="photo-card photo-one">
+              <div class="photo-frame"><img src="./imagens/foto%205.png" alt="" /></div>
+              <figcaption>Cada momento com você</figcaption>
+            </figure>
+            <figure class="photo-card photo-two">
+              <div class="photo-frame"><img src="./imagens/foto%201.png" alt="" /></div>
+              <figcaption>Foram os melhores</figcaption>
+            </figure>
+            <figure class="photo-card photo-three">
+              <div class="photo-frame"><img src="./imagens/foto%202.png" alt="" /></div>
+              <figcaption>Da minha vida</figcaption>
+            </figure>
+            <figure class="photo-card photo-four">
+              <div class="photo-frame"><img src="./imagens/foto%203.jpg" alt="" /></div>
+              <figcaption>Cada “Eu te amo”</figcaption>
+            </figure>
+            <figure class="photo-card photo-five">
+              <div class="photo-frame"><img src="./imagens/foto%204.png" alt="" /></div>
+              <figcaption>Cada “to com saudade”</figcaption>
+            </figure>
+            <figure class="photo-card photo-six">
+              <div class="photo-frame"><img src="./imagens/foto%206.png" alt="" /></div>
+              <figcaption>Me fazem feliz todos os dias</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="stage about-stage" data-stage="about" aria-label="About Us" hidden>
+          <article class="letter-page letter-page-oct02" id="cartinha">
+            <h1>Sexta feira, 02 de outubro de 2026, 01:10h</h1>
+            <div class="letter-copy letter-oct02-intro">
+              <p>Agora é 01:10 da manhã, você acabou de ir deitar, e eu to aqui fazendo isso, te pedindo pra escolher as fontes pra eu poder escrever isso aqui pra você. Eu não sei exatamente o que eu posso te dizer, mas é tao bom escutar você sorrir, te ver se divertir, te ver bem do meu lado, eu nao sei como será o dia de amanha, nem o que eu vou precisar inventar pra ver você dar outros sorrisos com algo que eu fale ou faça, mas eu vou tentar te animar!</p>
+              <p>Os próximos dias serão bem difíceis e complicados eu sei disso, eu nao sei qual vai ser o desfecho de tudo isso, mas estou mais do que feliz em saber que você se divertiu e que esses momentos vao ser guardados por você com muito carinho, tem muitas coisas que eu não entendo o porque de acontecerem com a gente, mas eu nao quero guardar más lembranças da gente caso a gente nao esteja mais uma do lado da outra no futuro, eu quero que você se lembre com um sorrisinho no rosto. &lt;3</p>
+            </div>
+            <img class="letter-photo letter-oct02-photo" src="./imagens/roblox%20J.png" alt="Cena de Roblox com uma personagem, o Homem-Aranha e um cachorro" />
+            <div class="letter-aside letter-oct02-aside">
+              <p>ESSA É UMA FOTO EM ATOS REAIS DE LIBIDINAGEM KKKKKKKKKKKKKKKKKKKKK</p>
+              <p>VOCE ME TRÁS UMA ALEGRIA BOBA DONA JULIA<br />VOCE ME FAZ QUERER QUE O DIA DE AMANHA CHEGUE LOGO PRA EU PODER OUVIR SUA VOZ LOGO!</p>
+            </div>
+            <p class="letter-oct02-signoff">EU TE AMO JUJU, MUITOOOOOOOO!!!</p>
+            <button class="previous-letter" type="button" aria-label="Cartinha anterior">←</button>
+            <button class="next-letter" type="button" aria-label="Próxima cartinha">→</button>
+          </article>
+          <article class="letter-page letter-page-oct26" hidden>
+            <h1>segunda-feira, 26 de outubro de 2026, 01:00h</h1>
+            <img class="letter-photo letter-oct26-photo" src="./imagens/npc%20julia%202.png" alt="Personagens juntas no desafio de pegar o telefone no Roblox" />
+            <div class="letter-copy letter-oct26-intro">
+              <p>Eu comecei a jogar um joguinho no roblox só porque você aparecia la pra ser umas das minhas clientes npc, eu ficava olhando e pensando “meu deus será que ela ta bem? será que ela me esqueceu?” kkkkk isso é tao besta que chega ser engraçado. Eu não consigo parar de te amar, nao consigo te esquecer, eu ja pensei em voltar 200 vezes, mas a gente é tao complicada kkkkk que saco, mas esses sao osm meus pensamentos do dia, do momento, e fazem apenas 3 dias só que paramos de nos falar, mas parece muito mais do que isso, eu estou morrendo de saudade de você, muita.</p>
+              <p>Eu tenho algo que quero te dizer, pra você poder saber disso por mim: Quando eu quis que você mudasse, nao era a sua personalidade, nao era a sua essência, nem seu jeito. Na verdade isso era oque eu tinha mais pavor, você mudar quem você era e deixar de me amar por isso. O que eu sempre quis de você era que você entendesse que as suas atitudes me machucavam e eu nao queria ter que apontar cada uma delas, porque era isso que realmente machucava...</p>
+            </div>
+            <div class="letter-copy letter-oct26-ending">
+              <p>Mas agora você kk eu amo essa sua essência caótica, eu amei você com todos os seus defeitos, eu fiquei mesmo sabendo que poderia me magoar, mas era você tudo que eu queria e eu quero que você saiba disso, o problema nunca foi VOCE, mas só as suas atitudes, mas você.... Meu Deus, eu sou completamente apaixonada por você, por cada detalhe, todos os detalhes eu amo em você. Nunca foi sobre você, só algumas atitudes e eu queria que você soubesse disso, porque você é lerda e na nossa ultima conversa você falou que estava tentando mudar ate seu dna por mim, e ler isso causou cada coisa em mim, que talvez se você tivesse entendido antes, talvez nao seria tao desgastante pra nenhuma de nos duas. Eu achei que você deveria saber disso, achei que você deveria saber que você é a mulher que eu amo e eram apenas as suas atitudes que eu queria que mudassem, não você, você é a minha garota preferida e eu te amo!</p>
+            </div>
+            <button class="previous-letter" type="button" aria-label="Cartinha anterior">←</button>
+            <button class="next-letter" type="button" aria-label="Próxima cartinha">→</button>
+          </article>
+          <article class="letter-page letter-page-oct27" hidden>
+            <h1>Terça feira, 27 de outubro de 2026, 20:19h</h1>
+            <img class="letter-photo letter-oct27-photo" src="./imagens/npc%20julia%201.png" alt="Personagem no caixa de uma loja no Roblox" />
+            <div class="letter-copy letter-oct27-intro">
+              <p>Mais um dia eu jogando esse jogo idiota só porque vou ver esse npc seu.. Eu acho que eu sou egoísta demais quando se trata de você, de verdade eu nao quero que você ache alguém que te ame mais do que eu, que te queira mais do que eu, porque eu queria que você fosse completamente minha. Mas bem la no fundo, bem fundo mesmo kk eu desejo que você possa conhecer um amor ainda mais genuíno, porque só de pensar na sua felicidade, ja me deixa ainda mais feliz, mesmo que seja doloroso.</p>
+              <p>Aaaah como eu te amo minha pequena, minha piquituxa, como eu te amo... Você pensa em mim todo dia também? Você pensa em me mandar mensagem? Ou você ja esta mais de boa com tudo isso, agora você nao tem mais ninguém cobrando você, nao tem mais ninguém no seu pé, isso deve ser libertador eu acho kkkkkkk acho que se fosse o contrario, eu ficaria melhor sem mim também.</p>
+              <p>espero de verdade que você esteja sorrindo muito, comendo direito, dormindo melhor, porque eu nao estou fazendo nenhuma dessas coisas kkkkkkkkkkk to morrendo por dentro todo dia, de saudade do meu ursinho. Por favor esteja bem, esteja saudável, esteja feliz.</p>
+            </div>
+            <div class="letter-copy letter-oct27-quote">
+              <p>“A saudade é a prova silenciosa de que o amor continua vivo, mesmo quando a presença se transforma em lembrança. É sentir falta de um abraço, de uma voz, de um sorriso que fazia qualquer dia parecer mais bonito. É encontrar alguém em pequenas coisas, em músicas, lugares e momentos que antes pareciam comuns. O amor verdadeiro não desaparece com a distância, nem se desfaz com o tempo; ele permanece escondido nos detalhes, esperando por uma lembrança para florescer novamente. E, por mais que a ausência doa, existe algo bonito em sentir saudade: significa que alguém fez morada eterna em nosso coração.”</p>
+              <p>“Eu te queria a vida toda, te confesso...”</p>
+            </div>
+            <button class="previous-letter" type="button" aria-label="Cartinha anterior">←</button>
+            <button class="next-letter" type="button" aria-label="Próxima cartinha">→</button>
+          </article>
+          <article class="letter-page letter-page-oct30" hidden>
+            <h1>sexta-feira, 30 de outubro de 2026, 03:25h</h1>
+            <div class="letter-copy letter-oct30-intro">
+              <p>Hoje foi um dois dias que eu mais chorei na minha vida, chora de soluçar mesmo kkkkk porque? porque estou morrendo de saudades suas, porque eu quero você mais do que qualquer coisa no mundo, mas nao posso ter.</p>
+              <p>Tomar essa decisão de encerrar tudo com você foi mais uma forma de nos deixar livre, do que por eu querer mesmo. Tudo que eu senti eu senti de forma bem intensa, dos menores aos maiores detalhes, é uma coisa louca como o amor deixa a gente meio maluco, ou eu que nao sei amar sem adoecer por causa disso kkkkkkk</p>
+              <p>Eu queria que as coisas tivessem sido mais fáceis pra nos, queria que a gente conseguisse se entender.. Eu queria que você tivesse entendido e abraçado a minha dor e os meus pedidos como uma forma de socorro, acho que viver do seu lado com pavor de te perder a qualquer momento deixou tudo mais difícil pra mim, mas eu juro que dei o meu melhor pra confiar e ficar do seu lado independente do medo que me aterrorizava todos os dias e mesmo com tudo que me machucava eu jamais quis sair do seu lado. Eu quis fugir de tudo isso, de mínimas coisas que eu via que me faziam reviver tudo de novo de formas ainda piores, mas eu nao consegui, e eu sinto muito por isso, mas todas as brigas era só pra você me enxergar, nao era um ataque, era mais um grito desesperado do tipo “por favor enxerga a minha dor, o meu medo, o meu coração aflito”.</p>
+              <p>Eu amo você, e por amar tanto você eu nao consegui viver mais um dia do seu lado te vendo infeliz comigo. Tem muito mais no mundo que você queira viver do que um relacionamento como o nosso, mas por mais complicado que ele foi, eu ainda queria ter ele de novo, só pra poder estar perto de você, voltaria pro fundo do poço se isso significasse estar perto de você, mas o amor nao é pra ser doloroso assim, nao é pra ser desgastante assim, acho que você seria minha se você estivesse aqui pertinho de mim agora...</p>
+              <p>Saindo dessa vibe depressiva, eu imaginei só essa semana umas 40 vezes como seria sair com você, como seria gostoso abraçar você, segurar sua mao e conversar sobre um milhão de coisas, eu olhando pra você toda apaixonada, caramba, como eu queria viver isso com você, meu amor.. Como eu queria.</p>
+            </div>
+            <img class="letter-photo letter-oct30-photo" src="./imagens/npc%20julia%205.png" alt="Personagens juntas no Roblox" />
+            <p class="letter-oct30-photo-caption">E mais uma fotinha minha com seu npc pra sentir ainda mais a sua falta, e como eu to sentindo sua falta julia, meu deus que saudade de voce.</p>
+            <p class="letter-oct30-signoff">Eu te amo com cada batida do meu coração. Lembre disso.</p>
+            <div class="letter-oct30-hearts" aria-hidden="true"><span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span></div>
+            <button class="previous-letter" type="button" aria-label="Cartinha anterior">←</button>
+            <button class="next-letter" type="button" aria-label="Próxima cartinha">→</button>
+          </article>
+          <article class="letter-page letter-page-nov02" hidden>
+            <h1>Segunda - feira, 2 de novembro de 2026, 13:00h</h1>
+            <div class="letter-copy letter-nov02-copy">
+              <p>Hoje é um daqueles dias que eu estou pensando em você, pensando em como nossa vida seria daqui alguns anos, se teria dado certo ou não, se a gente casou e teve 4 filhos kkkkk pensar disso me deixa menos triste. Eu estava pensando, como seria a gente ser mae desse tanto de gente, como seria nossas viagens de família, como seria o tipo de foto de que a gente tiraria sempre em toda viagem.</p>
+              <p>Penso sobre as nossas manias morando juntas, como seria nossa rotina, como seria acordar todo dia com você do meu lado, como seria ter você me perturbando vez ou outra, como seria poder cozinhar pra você e saber se você aprova ou não a minha comida. Queria combinar pijamas com você, sair combinando, maratona series, filmes abraçadinhas no sofá, eu te atacar de vez em quando porque nao sei resistir você, eu dormir no meio do filme porque ja estou ficando velha.</p>
+              <p>Queria saber a sensação que é te ver dormindo do meu lado e poder ficar te observando, poder fazer carinho no seu rosto, fico pensando como seria poder simplesmente tocar em você a hora que eu quisesse, abraçar, beijar, te puxar pra perto de mim, te apertar, te morder, te bater kkkkkkk e mais um monte de outras coisas, queria poder sentir tudo isso com você, mas mesmo que isso nunca seja possível, saiba que isso era um dos meus mais carinhosos desejos.</p>
+              <p>Eu te mimaria tanto que eu acho que você ficaria insuportável (mais do que você ja é kkkkkk) mas eu faria tudo por você, mesmo que isso te estragasse e eu quisesse te matar com o mimo que eu mesma dei, mas valeria a pena se isso te fizesse sorrir pra mim todos os dias, se isso fizesse você querer estar perto de mim, se isso fizesse você feliz eu faria. Eu faria muito mais do que eu posso pela sua felicidade.</p>
+              <p>Bom, tudo isso são coisas obvias que eu faria, e eu tenho certeza que você sabe que eu faria. Mas acima de tudo eu te amaria como a coisa mais preciosa do mundo e cuidaria de você como se você fosse feita de um vidro super quebrável.</p>
+            </div>
+            <img class="letter-photo letter-nov02-photo" src="./imagens/iloveyou.jpg" alt="Ponte desenhada com a mensagem I love you" />
+            <div class="letter-song-quotes letter-nov02-quotes">
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"You're my water when I'm stuck in the desert."<br />Tradução: “Você é minha água quando estou preso no deserto.”</p>
+                <p class="letter-song-credit">“Best Part” — Daniel Caesar ft. H.E.R.</p>
+              </article>
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"Take my hand."<br />Tradução: “Segure minha mão.”</p>
+                <p class="letter-song-credit">“Can't Help Falling in Love” — Elvis Presley</p>
+              </article>
+            </div>
+            <button class="previous-letter" type="button" aria-label="Cartinha anterior">←</button>
+            <button class="next-letter" type="button" aria-label="Próxima cartinha">→</button>
+          </article>
+          <nav class="letter-pagination" data-letter-pagination aria-label="Páginas das cartinhas">
+            <button class="letter-page-dot is-active" type="button" data-letter-page="0" aria-label="Mostrar cartinha 1 de 5" aria-current="page"></button>
+            <button class="letter-page-dot" type="button" data-letter-page="1" aria-label="Mostrar cartinha 2 de 5"></button>
+            <button class="letter-page-dot" type="button" data-letter-page="2" aria-label="Mostrar cartinha 3 de 5"></button>
+            <button class="letter-page-dot" type="button" data-letter-page="3" aria-label="Mostrar cartinha 4 de 5"></button>
+            <button class="letter-page-dot" type="button" data-letter-page="4" aria-label="Mostrar cartinha 5 de 5"></button>
+          </nav>
+          <button class="letter-carousel-toggle" type="button" data-letter-carousel-toggle aria-label="Pausar avanço automático" title="Pausar avanço automático" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true" data-letter-pause-icon>
+              <path d="M8 5v14M16 5v14" />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true" data-letter-play-icon hidden>
+              <path d="m8 5 12 7-12 7z" />
+            </svg>
+          </button>
+        </section>
+        <section class="stage lyrics-stage" data-stage="lyrics" aria-label="Lyrics" hidden>
+          <article class="lyrics-page letter-page-nov02-songs">
+            <h1>Segunda - feira, 2 de novembro de 2026, 15:32h</h1>
+            <p class="letter-nov02-songs-intro">Eu pesquisei varias musicas sobre amor, e quero compartilhar elas com voce</p>
+            <div class="letter-song-grid">
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"You're the one I love, You're the only one I see."<br />"Você é a pessoa que eu amo, você é a única que eu vejo."</p>
+                <p class="letter-song-credit">"Love On Top" — Beyoncé</p>
+                <details class="letter-song-actions">
+                  <summary aria-label="Opções de Love On Top"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1.5" />
+                      <circle cx="12" cy="12" r="1.5" />
+                      <circle cx="19" cy="12" r="1.5" />
+                    </svg></summary>
+                  <div class="letter-song-menu"><a href="https://open.spotify.com/search/Love%20On%20Top%20Beyonc%C3%A9" target="_blank" rel="noopener noreferrer">Ouvir música</a></div>
+                </details>
+              </article>
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"I would never fall in love until I found her."<br />"Eu nunca me apaixonaria até encontrá-la."</p>
+                <p class="letter-song-credit">"Until I Found You" — Stephen Sanchez</p>
+                <details class="letter-song-actions">
+                  <summary aria-label="Opções de Until I Found You"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1.5" />
+                      <circle cx="12" cy="12" r="1.5" />
+                      <circle cx="19" cy="12" r="1.5" />
+                    </svg></summary>
+                  <div class="letter-song-menu"><a href="https://open.spotify.com/search/Until%20I%20Found%20You%20Stephen%20Sanchez" target="_blank" rel="noopener noreferrer">Ouvir música</a></div>
+                </details>
+              </article>
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"Please don't be in love with someone else."<br />"Por favor, não esteja apaixonada por outra pessoa."</p>
+                <p class="letter-song-credit">Enchanted — Taylor Swift</p>
+                <details class="letter-song-actions">
+                  <summary aria-label="Opções de Enchanted"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1.5" />
+                      <circle cx="12" cy="12" r="1.5" />
+                      <circle cx="19" cy="12" r="1.5" />
+                    </svg></summary>
+                  <div class="letter-song-menu"><a href="https://open.spotify.com/search/Enchanted%20Taylor%20Swift" target="_blank" rel="noopener noreferrer">Ouvir música</a></div>
+                </details>
+              </article>
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"I knew I loved you then."<br />"Eu soube que te amava naquele momento."</p>
+                <p class="letter-song-credit">Say You Won't Let Go — James Arthur</p>
+                <details class="letter-song-actions">
+                  <summary aria-label="Opções de Say You Won't Let Go"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1.5" />
+                      <circle cx="12" cy="12" r="1.5" />
+                      <circle cx="19" cy="12" r="1.5" />
+                    </svg></summary>
+                  <div class="letter-song-menu"><a href="https://open.spotify.com/search/Say%20You%20Won%27t%20Let%20Go%20James%20Arthur" target="_blank" rel="noopener noreferrer">Ouvir música</a></div>
+                </details>
+              </article>
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"I get to love you."<br />"Eu tenho a oportunidade de amar você."</p>
+                <p class="letter-song-credit">I Get to Love You — Ruelle</p>
+                <details class="letter-song-actions">
+                  <summary aria-label="Opções de I Get to Love You"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1.5" />
+                      <circle cx="12" cy="12" r="1.5" />
+                      <circle cx="19" cy="12" r="1.5" />
+                    </svg></summary>
+                  <div class="letter-song-menu"><a href="https://open.spotify.com/search/I%20Get%20to%20Love%20You%20Ruelle" target="_blank" rel="noopener noreferrer">Ouvir música</a></div>
+                </details>
+              </article>
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"I'd walk through fire for you."<br />"Eu atravessaria o fogo por você."</p>
+                <p class="letter-song-credit">Adore You — Harry Styles</p>
+                <details class="letter-song-actions">
+                  <summary aria-label="Opções de Adore You"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1.5" />
+                      <circle cx="12" cy="12" r="1.5" />
+                      <circle cx="19" cy="12" r="1.5" />
+                    </svg></summary>
+                  <div class="letter-song-menu"><a href="https://open.spotify.com/search/Adore%20You%20Harry%20Styles" target="_blank" rel="noopener noreferrer">Ouvir música</a></div>
+                </details>
+              </article>
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"When you love someone."<br />"Quando você ama alguém."</p>
+                <p class="letter-song-credit">Love Someone — Lukas Graham</p>
+                <details class="letter-song-actions">
+                  <summary aria-label="Opções de Love Someone"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1.5" />
+                      <circle cx="12" cy="12" r="1.5" />
+                      <circle cx="19" cy="12" r="1.5" />
+                    </svg></summary>
+                  <div class="letter-song-menu"><a href="https://open.spotify.com/search/Love%20Someone%20Lukas%20Graham" target="_blank" rel="noopener noreferrer">Ouvir música</a></div>
+                </details>
+              </article>
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"The night we met I knew I needed you."<br />"Na noite em que nos conhecemos, soube que precisava de você."</p>
+                <p class="letter-song-credit">Be My Baby — The Ronettes</p>
+                <details class="letter-song-actions">
+                  <summary aria-label="Opções de Be My Baby"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1.5" />
+                      <circle cx="12" cy="12" r="1.5" />
+                      <circle cx="19" cy="12" r="1.5" />
+                    </svg></summary>
+                  <div class="letter-song-menu"><a href="https://open.spotify.com/search/Be%20My%20Baby%20The%20Ronettes" target="_blank" rel="noopener noreferrer">Ouvir música</a></div>
+                </details>
+              </article>
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"I see forever in your eyes."<br />"Eu vejo a eternidade nos seus olhos."</p>
+                <p class="letter-song-credit">Dandelions — Ruth B.</p>
+                <details class="letter-song-actions">
+                  <summary aria-label="Opções de Dandelions"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1.5" />
+                      <circle cx="12" cy="12" r="1.5" />
+                      <circle cx="19" cy="12" r="1.5" />
+                    </svg></summary>
+                  <div class="letter-song-menu"><a href="https://open.spotify.com/search/Dandelions%20Ruth%20B" target="_blank" rel="noopener noreferrer">Ouvir música</a></div>
+                </details>
+              </article>
+              <article class="letter-song-card">
+                <p class="letter-song-lyric">"I will love you forever."<br />"Eu vou amar você para sempre."</p>
+                <p class="letter-song-credit">Forever — Lewis Capaldi</p>
+                <details class="letter-song-actions">
+                  <summary aria-label="Opções de Forever"><svg viewBox="0 0 24 24" aria-hidden="true">
+                      <circle cx="5" cy="12" r="1.5" />
+                      <circle cx="12" cy="12" r="1.5" />
+                      <circle cx="19" cy="12" r="1.5" />
+                    </svg></summary>
+                  <div class="letter-song-menu"><a href="https://open.spotify.com/search/Forever%20Lewis%20Capaldi" target="_blank" rel="noopener noreferrer">Ouvir música</a></div>
+                </details>
+              </article>
+            </div>
+          </article>
+        </section>
+        <section class="stage for-you-stage" data-stage="for-you" aria-label="For You" hidden>
+          <article class="for-you-page" data-for-you-page="0">
+            <header class="for-you-heading">
+              <h1>Poemas que eu te dedicaria.</h1>
+              <time datetime="2026-11-02T16:03">2 de novembro de 2026, 16:03h</time>
+            </header>
+            <div class="for-you-poem-list">
+              <article class="for-you-poem-card">
+                <h2>“Amor”</h2>
+                <p>Ainda não sei como será amar você em todos os detalhes,<br />mas desejo descobrir cada um deles.<br />Quero que, um dia, quando olharmos para trás,<br />possamos perceber que tudo começou com uma vontade:<br />a de fazer do nosso encontro uma história<br />que nenhum de nós queira deixar para trás.</p>
+              </article>
+              <article class="for-you-poem-card">
+                <h2>“Abraço”</h2>
+                <p>Quero descobrir como é encontrar abrigo nos seus braços,<br />sentir que, por alguns instantes, o mundo pode esperar.<br />Quero abraços demorados, daqueles sem pressa de terminar,<br />que dizem tudo aquilo que as palavras não conseguem explicar.<br />E espero que, um dia, você também encontre nos meus braços<br />um lugar onde sempre queira voltar.</p>
+              </article>
+            </div>
+            <button class="previous-letter" type="button" data-for-you-previous aria-label="Tela anterior de For You">←</button>
+            <button class="next-letter" type="button" data-for-you-next aria-label="Próxima tela de For You">→</button>
+          </article>
+          <article class="for-you-page" data-for-you-page="1" hidden>
+            <header class="for-you-heading">
+              <h1>Poemas que eu te dedicaria.</h1>
+              <time datetime="2026-11-02T16:12">2 de novembro de 2026, 16:12h</time>
+            </header>
+            <div class="for-you-poem-list">
+              <article class="for-you-poem-card">
+                <h2>“Beijo”</h2>
+                <p>Imagino como será o nosso primeiro beijo,<br />aquele instante que talvez eu passe tanto tempo esperando.<br />Quero descobrir o que sentirei quando nossos lábios se tocarem,<br />e como será transformar esse desejo em realidade.<br />Espero que seja apenas o primeiro de tantos outros,<br />de tantos momentos que ainda quero viver com você.</p>
+              </article>
+              <article class="for-you-poem-card">
+                <h2>“Segurar as mãos”</h2>
+                <p>Quero encontrar sua mão e entrelaçar meus dedos aos seus,<br />caminhar sem pressa, sem precisar saber a direção.<br />Quero atravessar ruas, conhecer lugares e dividir caminhos,<br />sempre com a sua mão acompanhando a minha.<br />E, mesmo que a vida nos leve por estradas desconhecidas,<br />espero que nunca nos falte vontade de caminhar juntos.</p>
+              </article>
+            </div>
+            <button class="previous-letter" type="button" data-for-you-previous aria-label="Tela anterior de For You">←</button>
+            <button class="next-letter" type="button" data-for-you-next aria-label="Próxima tela de For You">→</button>
+          </article>
+          <article class="for-you-page" data-for-you-page="2" hidden>
+            <header class="for-you-heading">
+              <h1>Poemas que eu te dedicaria.</h1>
+              <time datetime="2026-11-02T16:18">2 de novembro de 2026, 16:18h</time>
+            </header>
+            <div class="for-you-poem-list">
+              <article class="for-you-poem-card">
+                <h2>“Olhar nos olhos”</h2>
+                <p>Quero olhar profundamente nos seus olhos<br />e descobrir tudo aquilo que ainda não conheço.<br />Quero encontrar neles carinho, confiança e sinceridade,<br />e perceber que você também encontra tudo isso nos meus.<br />Espero que chegue o dia em que um simples gesto<br />seja suficiente para entendermos o que sentimos,<br />sem precisar encontrar palavras para explicar.</p>
+              </article>
+              <article class="for-you-poem-card">
+                <h2>“Batidas do coração”</h2>
+                <p>Quero descobrir como será ter você por perto,<br />sentir meu coração acelerar diante da sua presença.<br />Imagino aquele instante em que o nervosismo toma conta,<br />e eu só conseguir pensar será você.<br />Espero que, com o tempo, nossas batidas encontrem paz,<br />e que a presença um do outro se torne<br />uma das partes mais bonitas dos nossos dias.</p>
+              </article>
+            </div>
+            <button class="previous-letter" type="button" data-for-you-previous aria-label="Tela anterior de For You">←</button>
+            <button class="next-letter" type="button" data-for-you-next aria-label="Próxima tela de For You">→</button>
+          </article>
+          <article class="for-you-page" data-for-you-page="3" hidden>
+            <header class="for-you-heading">
+              <h1>Poemas que eu te dedicaria.</h1>
+              <time datetime="2026-11-02T16:23">2 de novembro de 2026, 16:23h</time>
+            </header>
+            <div class="for-you-poem-list">
+              <article class="for-you-poem-card">
+                <h2>“Casa, morar junto e filhos”</h2>
+                <p>Sonho com uma casa que ainda não existe,<br />mas que um dia possa chamar de nossa.<br />Quero escolher os móveis com você,<br />dividir as manhãs, preparar refeições e decorar nossos cantinhos,<br />e uma família construída com carinho.<br />Não sei como será esse futuro,<br />mas sei que gostaria muito de construí-lo ao seu lado.</p>
+              </article>
+              <article class="for-you-poem-card">
+                <h2>“Viagens românticas”</h2>
+                <p>Quero conhecer lugares que ainda não conhecemos,<br />descobrir paisagens e colecionar fotografias ao seu lado.<br />Sonho com viagens sem pressa,<br />pôr do sol em cidades desconhecidas<br />e noites em que a única preocupação seja aproveitar o momento.<br />Quero olhar para cada destino e pensar:<br />ainda bem que escolhi viver isso com você.</p>
+              </article>
+            </div>
+            <button class="previous-letter" type="button" data-for-you-previous aria-label="Tela anterior de For You">←</button>
+            <button class="next-letter" type="button" data-for-you-next aria-label="Próxima tela de For You">→</button>
+          </article>
+          <article class="for-you-page" data-for-you-page="4" hidden>
+            <header class="for-you-heading">
+              <h1>Poemas que eu te dedicaria.</h1>
+              <time datetime="2026-11-02T16:33">2 de novembro de 2026, 16:33h</time>
+            </header>
+            <div class="for-you-poem-list">
+              <article class="for-you-poem-card">
+                <h2>“Declarações de amor”</h2>
+                <p>Tenho tantas coisas que gostaria de dizer,<br />tantos sentimentos que ainda quero transformar em palavras.<br />Quero um dia olhar nos seus olhos e conseguir explicar<br />o quanto sua presença se tornou importante para mim.<br />Quero demonstrar meu carinho nas pequenas coisas<br />e nunca deixar que você tenha dúvidas<br />sobre o quanto é especial na minha vida.</p>
+              </article>
+              <article class="for-you-poem-card">
+                <h2>“Estar ao lado uma da outra”</h2>
+                <p>Quero estar ao seu lado nos dias que ainda virão,<br />acompanhar suas conquistas e celebrar seus sonhos.<br />Quero conhecer suas versões ao longo dos anos,<br />estar presente nas mudanças e crescer junto com você.<br />Não espero que todos os dias sejam perfeitos, mas desejo que<br />exista vontade de continuar. E, quando o futuro finalmente<br />chegar, espero poder olhar para o lado e encontrar você ali.</p>
+              </article>
+            </div>
+            <button class="previous-letter" type="button" data-for-you-previous aria-label="Tela anterior de For You">←</button>
+            <button class="next-letter" type="button" data-for-you-next aria-label="Próxima tela de For You">→</button>
+          </article>
+          <nav class="for-you-pagination" aria-label="Páginas de For You">
+            <button class="letter-page-dot is-active" type="button" data-for-you-dot="0" aria-label="Mostrar tela 1 de 5" aria-current="page"></button>
+            <button class="letter-page-dot" type="button" data-for-you-dot="1" aria-label="Mostrar tela 2 de 5"></button>
+            <button class="letter-page-dot" type="button" data-for-you-dot="2" aria-label="Mostrar tela 3 de 5"></button>
+            <button class="letter-page-dot" type="button" data-for-you-dot="3" aria-label="Mostrar tela 4 de 5"></button>
+            <button class="letter-page-dot" type="button" data-for-you-dot="4" aria-label="Mostrar tela 5 de 5"></button>
+          </nav>
+        </section>
+      </main>
+    </div>
+
+    <dialog class="feelings-dialog" aria-labelledby="feelings-title">
+      <form method="dialog" class="feelings-content">
+        <section class="feeling-prompt">
+          <button class="dialog-close" type="button" aria-label="Fechar">×</button>
+          <h2 id="feelings-title">Voce ainda me ama?</h2>
+          <div class="feeling-options">
+            <button type="button" data-feeling="Sim 😊" data-calendar-mark="heart">😊<span>Sim</span></button>
+            <button type="button" data-feeling="Sim também, porque você não tem a opção de não me amar 🙄" data-calendar-mark="heart" data-response="full">🙄<span>Sim também, porque você não tem a opção de não me amar</span></button>
+          </div>
+        </section>
+        <section class="feeling-response" role="status" aria-live="polite" hidden>
+          <h3>Oi amor 🥰</h3>
+          <p></p>
+          <div class="daily-love-phrase" hidden>
+            <p class="daily-love-language"></p>
+            <p class="daily-love-phrase-text"></p>
+            <p class="daily-love-translation">(Eu te amo)</p>
+          </div>
+        </section>
+      </form>
+    </dialog>
+
+    <span class="test-mode-badge" hidden>MODO DE TESTE</span>
+  </div>
+</body>
+
+</html>
